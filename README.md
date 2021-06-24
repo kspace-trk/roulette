@@ -1,6 +1,10 @@
 # rotate
 
-> My super-duper Nuxt.js project
+https://gyazo.com/e408af8245350e3a54a6e05c72a8521e
+
+z軸に回転するルーレットです。
+ルーレット盤の画像は自分で作って埋め込んでください
+ルーレット盤の生成はめんどくさかったので作りませんでした
 
 ## Build Setup
 
