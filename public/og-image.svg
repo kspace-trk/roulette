@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#f8f9fa"/>
+  <text x="600" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#333">ルーレットアプリ</text>
+  <text x="600" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#666">幹事決めや抽選に最適！</text>
+  <g transform="translate(600, 380)">
+    <circle cx="0" cy="0" r="120" fill="#333" stroke="#fff" stroke-width="6"/>
+    <path d="M0 -120 A120 120 0 0 1 120 0 L0 0 Z" fill="#FF6B6B"/>
+    <path d="M120 0 A120 120 0 0 1 0 120 L0 0 Z" fill="#4ECDC4"/>
+    <path d="M0 120 A120 120 0 0 1 -120 0 L0 0 Z" fill="#96CEB4"/>
+    <path d="M-120 0 A120 120 0 0 1 0 -120 L0 0 Z" fill="#FFEAA7"/>
+    <circle cx="0" cy="0" r="12" fill="#333"/>
+    <polygon points="0,-100 -8,-80 8,-80" fill="#fff"/>
+    <text x="60" y="-40" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">候補1</text>
+    <text x="40" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">候補2</text>
+    <text x="-60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">候補3</text>
+    <text x="-40" y="-60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">候補4</text>
+  </g>
+  <circle cx="200" cy="200" r="20" fill="#FF6B6B" opacity="0.3"/>
+  <circle cx="1000" cy="150" r="30" fill="#4ECDC4" opacity="0.3"/>
+  <circle cx="150" cy="450" r="25" fill="#96CEB4" opacity="0.3"/>
+  <circle cx="1050" cy="480" r="20" fill="#FFEAA7" opacity="0.3"/>
+</svg>

@@ -1,0 +1,33 @@
+{
+  "name": "ルーレットアプリ",
+  "short_name": "ルーレット",
+  "description": "幹事決めや抽選に最適なルーレットアプリ",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF6B6B",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "games",
+    "utilities",
+    "productivity"
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.svg",
+      "sizes": "1200x630",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ]
+} 
