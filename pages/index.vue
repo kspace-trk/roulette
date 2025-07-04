@@ -62,6 +62,9 @@ const drawRoulette = async () => {
   ctx.clearRect(0, 0, canvas.width, canvas.height)
 
   const angleStep = (2 * Math.PI) / rouletteItems.value.length
+  // Canvas APIの0°は右を指すが、針は上を指すので-90°から開始
+  // さらに針が最初のセクションの中央を指すように、セクションを半分ずらす
+  const startOffset = -Math.PI / 2 - angleStep / 2
   const colors = [
     '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7',
     '#DDA0DD', '#FFB347', '#87CEEB', '#F0E68C', '#FFB6C1'
@@ -69,8 +72,8 @@ const drawRoulette = async () => {
 
   // セクションを描画
   rouletteItems.value.forEach((item, index) => {
-    const startAngle = index * angleStep
-    const endAngle = (index + 1) * angleStep
+    const startAngle = index * angleStep + startOffset
+    const endAngle = (index + 1) * angleStep + startOffset
 
     // セクションの背景
     ctx.beginPath()
@@ -86,7 +89,9 @@ const drawRoulette = async () => {
     // テキストを描画
     ctx.save()
     ctx.translate(centerX, centerY)
-    ctx.rotate(startAngle + angleStep / 2)
+    // セクションの中央角度を計算（オフセットを考慮）
+    const sectionCenterAngle = startAngle + angleStep / 2
+    ctx.rotate(sectionCenterAngle)
     ctx.textAlign = 'center'
     ctx.fillStyle = '#333'
     ctx.font = 'bold 16px Arial'
