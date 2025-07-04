@@ -39,7 +39,7 @@
             name: 'twitter:description', 
             content: '幹事決めや抽選に最適なルーレットアプリ！項目を自由に追加・削除してオリジナルのルーレットを作成できます。' 
           },
-          { name: 'twitter:image', content: '/og-image.svg' },
+          { name: 'twitter:image', content: 'https://roulette-woad.vercel.app/og-image.svg' },
           
           // 追加のメタ情報
           { name: 'theme-color', content: '#FF6B6B' },
