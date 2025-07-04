@@ -26,7 +26,7 @@
           },
           { property: 'og:type', content: 'website' },
           { property: 'og:url', content: 'https://roulette-woad.vercel.app/' },
-          { property: 'og:image', content: 'https://roulette-woad.vercel.app/og-image.svg' },
+          { property: 'og:image', content: 'https://roulette-woad.vercel.app/og-image.png' },
           { property: 'og:image:width', content: '1200' },
           { property: 'og:image:height', content: '630' },
           { property: 'og:site_name', content: 'ルーレットアプリ' },
@@ -39,7 +39,7 @@
             name: 'twitter:description', 
             content: '幹事決めや抽選に最適なルーレットアプリ！項目を自由に追加・削除してオリジナルのルーレットを作成できます。' 
           },
-          { name: 'twitter:image', content: 'https://roulette-woad.vercel.app/og-image.svg' },
+          { name: 'twitter:image', content: 'https://roulette-woad.vercel.app/og-image.png' },
           
           // 追加のメタ情報
           { name: 'theme-color', content: '#FF6B6B' },

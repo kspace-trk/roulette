@@ -16,7 +16,8 @@
     "nuxt": "^3.17.6"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0"
+    "@types/node": "^20.0.0",
+    "sharp": "^0.34.2"
   },
   "optionalDependencies": {
     "@oxc-parser/binding-linux-x64-gnu": "latest",
