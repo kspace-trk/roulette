@@ -19,6 +19,7 @@
     "@types/node": "^20.0.0"
   },
   "optionalDependencies": {
-    "@oxc-parser/binding-linux-x64-gnu": "latest"
+    "@oxc-parser/binding-linux-x64-gnu": "latest",
+    "@rollup/rollup-linux-x64-gnu": "latest"
   }
 }
