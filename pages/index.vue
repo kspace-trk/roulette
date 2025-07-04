@@ -120,9 +120,8 @@ const start = () => {
   rotate.value = true
   result.value = false
   
-  // ランダムに項目を選択
-  const randomIndex = Math.floor(Math.random() * rouletteItems.value.length)
-  selectedItem.value = rouletteItems.value[randomIndex]
+  // 針が指している項目（最初の項目）を選択
+  selectedItem.value = rouletteItems.value[0]
   
   setTimeout(stop, 2000)
 }
