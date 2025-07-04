@@ -141,8 +141,6 @@ const handleKeyPress = (event: KeyboardEvent) => {
 
 <template>
   <div class="container">
-    <div class="title">動的ルーレットアプリ</div>
-    
     <!-- 項目入力フォーム -->
     <div class="input-section">
       <div class="input-group">
@@ -215,12 +213,6 @@ const handleKeyPress = (event: KeyboardEvent) => {
   justify-content: flex-start;
   padding: 20px;
   gap: 30px;
-}
-
-.title {
-  font-size: 2.5rem;
-  color: #333;
-  margin-bottom: 20px;
 }
 
 .input-section {
