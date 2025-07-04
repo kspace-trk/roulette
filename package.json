@@ -5,13 +5,17 @@
   "author": "",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.17.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
 }
