@@ -11,7 +11,7 @@ const canvasRef = ref<HTMLCanvasElement>()
 const hasCustomRoulette = ref(false)
 
 // デフォルトのルーレット項目
-const defaultItems = ['ぴきちゃん', 'たろう', 'はなこ', 'じろう', 'さくら', 'ひろし']
+const defaultItems = ['たろう', 'はなこ', 'じろう']
 
 onMounted(() => {
   // 初期状態でデフォルトのルーレットを描画
